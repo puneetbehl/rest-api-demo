@@ -1,0 +1,8 @@
+import restapidemo.Book
+
+model {
+	Iterable<Book> bookList
+}
+
+json tmpl.book(bookList ?: [])
+

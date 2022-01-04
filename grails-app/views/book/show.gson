@@ -1,0 +1,7 @@
+import restapidemo.Book
+
+model {
+	Book book
+}
+
+json tmpl.book(book)
